@@ -2,7 +2,7 @@
 
 ---
 
-# 📹 **MultiModal RAG App for Video Processing With LlamaIndex and LanceDB**
+# 📹 **MultiModal RAG App for Video Processing With LlamaIndex , LanceDB and gpt-4-vision**
 
 ## Introduction
 
@@ -21,6 +21,28 @@ The **MultiModal RAG App** combines video processing techniques with advanced na
 - **❓ Intelligent Querying:** By leveraging OpenAI's large language model (LLM), users can pose questions related to the video content. The app retrieves relevant information and images from the multimodal index, offering precise and contextual answers.
 
 ---
+
+## 🧠 Working Steps :
+
+
+1. **Initializations**  
+   - Set up the necessary libraries and dependencies to enable the application's functionality.
+
+2. **Video to Image and Text**  
+   - **Image**: Extract images from video frames for visual context.
+   - **Text**: Convert the audio from the video into text for textual analysis and querying.
+
+3. **Create Multimodal Index**  
+   - Organize the extracted images and text data into a multimodal index for efficient retrieval.
+
+4. **Query and Augmentation**  
+   - **4.1 Setting Retriever**: Configure the system to retrieve relevant data based on user queries.
+   - **4.2 You can SEE Retrieved Images**: Display the images retrieved from the index based on the queries.
+   - **4.3 Prompting with M-LLM**: Use OpenAI's large language model to provide contextual answers based on the retrieved data.
+
+
+
+
 
 ## 🛠️ Setup Instructions
 
